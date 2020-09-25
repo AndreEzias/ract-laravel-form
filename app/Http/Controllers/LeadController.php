@@ -4,11 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreLeadPost;
 use App\Lead;
-use App\Mail\NewLead;
 use App\Services\FileService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
-use Illuminate\Support\Facades\Mail;
 
 class LeadController extends Controller
 {
@@ -41,8 +39,6 @@ class LeadController extends Controller
         }
 
         $lead = Lead::query()->create($data);
-
-        Mail::to(env("MAIL_RECEIVER","teste@teste.com"))->send(new NewLead($lead));
 
         return response()->json($lead)->setStatusCode(Response::HTTP_CREATED);
     }
