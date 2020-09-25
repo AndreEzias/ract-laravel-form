@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Lead extends Model
 {
@@ -14,7 +15,7 @@ class Lead extends Model
         "file_id"
     ];
 
-    public function file()
+    public function file(): BelongsTo
     {
         return $this->belongsTo(File::class);
     }

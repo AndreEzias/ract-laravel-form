@@ -15,7 +15,9 @@
  - Laravel 5.8
  
 #### Baixando o projeto
-``
+`$ git clone https://github.com/AndreEzias/react-laravel-form.git`
+
+`$ cd react-laravel-form`
 
 ##### Instalando dependências
 
@@ -33,7 +35,7 @@ Crie um banco de dados no mysql:
 
 Crie um arquivo de variáveis de ambiente:
 
-`$ cp .env.exemple .env & nano .env`
+`$ cp .env.example .env & nano .env`
 
 Insira os acessos para seu banco de dados:
  
@@ -51,6 +53,10 @@ Insira os acessos para seu banco de dados:
 Criar tabelas no banco:
 
 `$ php artisan migrate`
+
+Gerar chave da aplicação:
+
+`php artisan key:generate`
 
 Servir aplicação:
 

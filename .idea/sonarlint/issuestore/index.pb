@@ -37,3 +37,19 @@ S
 #app/Http/Requests/StoreLeadPost.php,4/7/47cc700832a5f2a3bc1deb114bc01b47f6a31e07
 O
 resources/js/components/Form.js,e/0/e01f15a863e12da348a6958d8f97be27a229fef4
+<
+.env.example,d/4/d4dae00d11854b35292c2b8a30515a9a0aa2d871
+=
+composer.lock,c/3/c3262e2a0879195bd6a727e90f768bc85ad79ffd
+Y
+)resources/views/emails/new_lead.blade.php,e/a/ea596b06658567303cad35789e4ee20169f1a908
+4
+.env,3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
+?
+config/mail.php,2/d/2d414a971ebe9a05bd929c2805b4c963e8b1ea8d
+N
+app/Observers/LeadObserver.php,7/e/7e9fbf5e84de976c151c347f3ac77925bb32ca47
+9
+	readme.md,2/7/275d783e298228506068436512433d343feb52aa
+D
+app/Mail/NewLead.php,5/2/526748ea7d73083c0b5a16ac620dcf63405dbdfc
