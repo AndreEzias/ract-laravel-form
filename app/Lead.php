@@ -16,6 +16,6 @@ class Lead extends Model
 
     public function file()
     {
-        return $this->belongsTo(File::class)->get();
+        return $this->belongsTo(File::class);
     }
 }
